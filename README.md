@@ -9,25 +9,38 @@ select appropriate operating system and download
 2. create a virtual environment, use following command for creating it: 
 	
 	pip install virtualenv <---- installs virtual environment
+	
 	virtualenv myenv <---- creates virtual environment of name myenv
 3. activate virtual environment
 	
 	in the prompt type following:
-	.\myenv\Scripts\activate
+	
+	\myenv\Scripts\activate
+	
 	and press enter.
 4. find requirements.txt in project folder. Go to the location in command prompt/anaconda prompt and use following command
 	
 	pip install -r requirements.txt
+		
 ---> let the requirements be installed. Then there is some additional files to be copied to be done.
+	
 	copy Bag_of_words_model.py, energy_bids.csv, train_and_save_model.py and tweets_grabber.py to following location: .\myenv\Lib\site-packages\
 5. now use following command in command/Anaconda prompt
+	
 	python (press enter)
+	
 	import nltk (press enter)
+	
 	nltk.download('stopwords')
+	
 	#downloads stopwords of nltk library
+	
 	exit()
 
 Now environment is setup for running the server. Go to project folder in command/anaconda prompt and use following command in succession:
+
 I> python manage.py makemigrations incomingData
+
 II> python manage.py migrate
+
 III> python manage.py runserver
