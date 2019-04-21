@@ -7,7 +7,7 @@ select appropriate operating system and download
 1. open command prompt/Anaconda prompt (anaconda prompt will be available in start button, under anaconda folder)
 	to open command prompt, press windows+R button, type cmd and press enter
 2. create a virtual environment, use following command for creating it: 
-	pip install virtualenv <---- installs virtual environment
+	\npip install virtualenv <---- installs virtual environment
 	virtualenv myenv <---- creates virtual environment of name myenv
 3. activate virtual environment
 	in the prompt type following:
