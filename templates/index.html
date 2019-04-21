@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<title>HOMEPAGE BABY!!!!</title>
+
+<form method="POST">
+{% csrf_token %}
+    <label for="your_name">Your name: </label>
+    <input id="your_name" type="text" name="your_name" value="{{ current_name }}">
+    {{form.as_p}}
+    <label for="email">Email Address: </label>
+    <input id="email" type="email" name="email" value="{{ email }}">
+    {{form.as_p}}
+    <label for="text_to_analyze">Text to Analyze: </label>
+    <input id="text_to_analyze" type="text" name="text_to_analyze" value="{{ text_to_analyze }}">
+    {{form.as_p}}
+    <input type="submit" value="Submit">
+</form>
+<!--
+<form method = "post">
+{% csrf_token %}
+
+<p>
+<label>Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+<!--
+<div>
+<label>Pickup Place
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="office" >Taxi Office</option>
+<option value="town_hall" >Town Hall</option>
+<option value="telepathy" >We'll Guess!</option>
+</select>
+</label> 
+</div>
+
+<div>
+<label>Dropoff Place
+<input type="text" name="dropoff_place" required list="destinations">
+</label>
+
+<datalist id="destinations">
+<option value="Airport">
+<option value="Beach">
+<option value="Fred Flinstone's House">
+</datalist>
+</div>
+
+
+<p>
+<label>Text to Analyze
+<textarea name="comments" maxlength="280"></textarea>
+</label>
+</p>
+
+<div><button>Submit Booking</button></div>
+
+</form>
+-->
