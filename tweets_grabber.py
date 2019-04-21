@@ -2,10 +2,10 @@ import tweepy
 
 class get_tweets(object):
     
-    def __init__(self, access_tokens = "1115011131955871744-UJNFX7syUjuIhuFdwNA5OYxUIgCgH1",
-                access_token_secret = "7c89Rc9JnqkaCB6V1x8HfANB23SPaqGn8rIOvuIVb9qF8",
-                consumer_key = "sbCyFfrodjSTWXlX7hpmI7uGb",
-                consumer_key_secret = "HL091HCVVZ3ZIGstLVOnSpU6cteICVcJFd280PFLkx4ZeXa7ZH",):
+    def __init__(self, access_tokens = "xxxx",
+                access_token_secret = "xxxx",
+                consumer_key = "xxxx",
+                consumer_key_secret = "xxxx",):
         self.access_tokens = access_tokens
         self.access_token_secret = access_token_secret
         self.consumer_key = consumer_key
