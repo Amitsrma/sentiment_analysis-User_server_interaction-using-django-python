@@ -25,7 +25,7 @@ select appropriate operating system and download
 	
 	pip install -r requirements.txt
 		
----> let the requirements be installed. Then there is some additional files to be copied to be done.
+---> let the requirements be installed. Then there is some additional files to be copied.
 	
 copy Bag_of_words_model.py, energy_bids.csv, train_and_save_model.py and tweets_grabber.py to following location: 
 .\myenv\Lib\site-packages\
