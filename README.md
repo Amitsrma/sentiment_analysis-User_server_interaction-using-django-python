@@ -24,7 +24,8 @@ select appropriate operating system and download
 		
 ---> let the requirements be installed. Then there is some additional files to be copied to be done.
 	
-	copy Bag_of_words_model.py, energy_bids.csv, train_and_save_model.py and tweets_grabber.py to following location: .\myenv\Lib\site-packages\
+	copy Bag_of_words_model.py, energy_bids.csv, train_and_save_model.py and tweets_grabber.py to following location: 
+	.\myenv\Lib\site-packages\
 5. now use following command in command/Anaconda prompt
 	
 	python (press enter)
