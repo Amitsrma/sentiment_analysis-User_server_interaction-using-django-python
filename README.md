@@ -1,4 +1,7 @@
 # sentiment_analysis-User_server_interaction-using-django-python
+
+WORK IN PROGRESS
+
 This is first stages of study to model user-server interaction and employ neural network to analyze sentiment of sentence.
 a. If you have python installed in your system, you can go to step 1 below, if you have not, install python. Using anaconda would be easier and it can be downloaded from following link: 
 https://www.anaconda.com/distribution/#download-section 
