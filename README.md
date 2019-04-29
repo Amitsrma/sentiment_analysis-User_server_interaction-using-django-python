@@ -37,7 +37,7 @@ copy Bag_of_words_model.py, energy_bids.csv, train_and_save_model.py and tweets_
 	
 	nltk.download('stopwords')
 	
-	#downloads stopwords of nltk library
+	#downloads stopwords
 	
 	exit()
 
