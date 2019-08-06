@@ -1,6 +1,6 @@
 # sentiment_analysis-User_server_interaction-using-django-python
 
-I MADE A SYSTEM THAT WOULD TAKE IN TRAINING DATA NOT SPECIFIC TO A TYPE OF SENTIMENT AND THEN ANALYZE INCOMING INFORMATION BASED ON THAT.
+I tried to design a system that would take in a set of training data and analyze given input to determine its sentiment. Binary classification method is used with bag-of-words approach.
 
 This is first stages of study to model user-server interaction and employ neural network to analyze sentiment of sentence.
 a. If you have python installed in your system, you can go to step 1 below, if you have not, install python. Using anaconda would be easier and it can be downloaded from following link: 
